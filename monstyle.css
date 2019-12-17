@@ -1,0 +1,80 @@
+eci est une feuille de style */
+body{ 
+background-color: #F7F8E0 ;
+color : blue;
+/*incorporer un image*/
+ background-image : url(image/sanstitre.png)
+ background-repeat : no-repeat;
+ background-position : top right;
+}
+p{
+ text-align: center; 
+}
+h1{
+	/* taille du texte */
+	font-size : 200%; 
+	/* police par ordre de préférence*/
+	font-family : Verdana, Arial, Geneva, sans-serif;
+	/* couleur du texte  */
+	color : purple;
+	/* alignement du texte */
+	text-align: center;
+}
+/* redéfinir l'aspect des liens hypertextes */
+a:link { 
+	/* lien non visité */
+	color : black;
+	text-decoration: underline;
+}
+/* lien dejà visité */
+a:visited {color:gray; text-decoration: underline;}
+
+/*effets au survol du lien */
+a:hover{color:red;text-decoration: none;}
+
+
+
+
+
+
+
+
+
+
+table{
+    /*aspect de la bordure du tableau*/
+    border: medium solid #6495ed;
+    border-collapse;
+    /*largeur du tableau en porcentage*/
+    width:70%;
+ }
+ /*aspect des entétes du tableau*/
+ th{
+     font-familly:monospace; /*police*/
+     border:thin solid #6495ed; /* bordure */
+     width: 50%; /*largeur*/
+     padding: 5px; /*marge interieur*/
+     background-color: #D0E3FA; /*couleur de font*/
+ }
+/*aspect cellules du tableau */
+td { 
+font-familly: sans-serif; /*police*/
+border: thin solid #6495ed; /*bordure*/
+width: 50%; /*largeur*/
+padding: 5px; /*marge interieur*/
+text-align: center; /*alignement*/
+background-color: #ffffff; /*couleur de fond*/
+}
+
+/*definition d'une classe qui va s'appliquer à plusiers élements *
+.fontvert
+{
+    background-color:#BFEDB3
+}
+
+/*definition d'un idefivateur qui va s'appliquer à l'elements*/
+#titreBac
+{
+    font-weight:bold;
+    color:red
+    text-decoration : underline;
